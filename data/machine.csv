@@ -1,0 +1,7 @@
+machine_id,machine_name,line,ideal_uph
+M01,Isolator Bonder,Line A,40
+M02,Lens Aligner,Line A,40
+M03,Dispenser,Line A,60
+M04,UV Curing Oven,Line B,80
+M05,Pick and Place Robot,Line B,90
+M06,Final Tester,Line B,50

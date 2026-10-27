@@ -1,0 +1,607 @@
+id,machine_id,start_time,minutes,cause,category,shift
+1,M01,2026-09-01 08:15,28,Sensor fault,Electrical,Day
+2,M01,2026-09-01 03:43,28,Material jam,Mechanical,Night
+3,M01,2026-09-01 02:37,22,Robot position error,Mechanical,Night
+4,M02,2026-09-01 00:35,24,Material jam,Mechanical,Night
+5,M03,2026-09-01 08:51,52,Motor overload,Electrical,Day
+6,M03,2026-09-01 05:44,44,Changeover,Planned,Night
+7,M04,2026-09-01 03:05,15,PLC communication error,Software,Night
+8,M05,2026-09-01 17:07,19,Robot position error,Mechanical,Day
+9,M05,2026-09-01 09:53,22,Robot position error,Mechanical,Day
+10,M06,2026-09-01 02:02,27,Air pressure low,Utility,Night
+11,M02,2026-09-02 11:10,25,Material jam,Mechanical,Day
+12,M02,2026-09-02 21:17,11,Material jam,Mechanical,Night
+13,M04,2026-09-02 12:17,19,Material jam,Mechanical,Day
+14,M04,2026-09-02 22:35,25,PLC communication error,Software,Night
+15,M04,2026-09-02 01:14,15,Material jam,Mechanical,Night
+16,M05,2026-09-02 22:20,23,Sensor fault,Electrical,Night
+17,M05,2026-09-02 14:09,25,Material jam,Mechanical,Day
+18,M05,2026-09-02 17:16,22,Robot position error,Mechanical,Day
+19,M06,2026-09-02 04:32,12,Material jam,Mechanical,Night
+20,M06,2026-09-02 01:55,29,Air pressure low,Utility,Night
+21,M01,2026-09-03 12:38,34,Motor overload,Electrical,Day
+22,M01,2026-09-03 08:35,21,PLC communication error,Software,Day
+23,M01,2026-09-03 21:46,20,Changeover,Planned,Night
+24,M02,2026-09-03 03:18,15,Robot position error,Mechanical,Night
+25,M03,2026-09-03 16:48,28,Changeover,Planned,Day
+26,M03,2026-09-03 20:19,8,Sensor fault,Electrical,Night
+27,M03,2026-09-03 19:12,21,Robot position error,Mechanical,Day
+28,M04,2026-09-03 00:38,21,PLC communication error,Software,Night
+29,M04,2026-09-03 03:59,5,Material jam,Mechanical,Night
+30,M05,2026-09-03 02:46,7,Sensor fault,Electrical,Night
+31,M06,2026-09-03 21:30,9,Robot position error,Mechanical,Night
+32,M06,2026-09-03 08:33,10,PLC communication error,Software,Day
+33,M01,2026-09-04 23:44,44,Changeover,Planned,Night
+34,M02,2026-09-04 16:28,19,Vision NG alarm,Software,Day
+35,M02,2026-09-04 02:21,12,Sensor fault,Electrical,Night
+36,M02,2026-09-04 07:37,22,Sensor fault,Electrical,Night
+37,M03,2026-09-04 01:55,7,Sensor fault,Electrical,Night
+38,M03,2026-09-04 07:17,21,Material jam,Mechanical,Night
+39,M03,2026-09-04 17:08,11,Vision NG alarm,Software,Day
+40,M04,2026-09-04 13:12,60,Motor overload,Electrical,Day
+41,M04,2026-09-04 13:22,26,Sensor fault,Electrical,Day
+42,M05,2026-09-04 01:25,8,Vision NG alarm,Software,Night
+43,M05,2026-09-04 07:12,8,Vision NG alarm,Software,Night
+44,M05,2026-09-04 05:17,18,Material jam,Mechanical,Night
+45,M01,2026-09-05 17:53,25,Sensor fault,Electrical,Day
+46,M01,2026-09-05 07:10,7,Sensor fault,Electrical,Night
+47,M02,2026-09-05 12:00,25,Changeover,Planned,Day
+48,M02,2026-09-05 14:18,13,PLC communication error,Software,Day
+49,M03,2026-09-05 04:12,20,Vision NG alarm,Software,Night
+50,M03,2026-09-05 18:47,6,Material jam,Mechanical,Day
+51,M05,2026-09-05 02:38,10,Sensor fault,Electrical,Night
+52,M05,2026-09-05 03:56,17,Sensor fault,Electrical,Night
+53,M01,2026-09-06 08:13,15,Air pressure low,Utility,Day
+54,M01,2026-09-06 07:16,15,Vision NG alarm,Software,Night
+55,M02,2026-09-06 00:29,46,Motor overload,Electrical,Night
+56,M04,2026-09-06 02:56,16,Sensor fault,Electrical,Night
+57,M05,2026-09-06 20:33,30,Vision NG alarm,Software,Night
+58,M05,2026-09-06 21:06,14,Sensor fault,Electrical,Night
+59,M05,2026-09-06 03:47,8,Robot position error,Mechanical,Night
+60,M06,2026-09-06 06:43,15,Material jam,Mechanical,Night
+61,M06,2026-09-06 16:31,13,Vision NG alarm,Software,Day
+62,M02,2026-09-07 04:40,15,Sensor fault,Electrical,Night
+63,M03,2026-09-07 17:00,18,Air pressure low,Utility,Day
+64,M03,2026-09-07 04:34,27,Sensor fault,Electrical,Night
+65,M04,2026-09-07 01:19,9,Sensor fault,Electrical,Night
+66,M04,2026-09-07 01:57,30,Material jam,Mechanical,Night
+67,M05,2026-09-07 19:47,18,Material jam,Mechanical,Day
+68,M05,2026-09-07 05:56,10,Sensor fault,Electrical,Night
+69,M05,2026-09-07 13:51,15,Robot position error,Mechanical,Day
+70,M06,2026-09-07 22:06,30,Material jam,Mechanical,Night
+71,M01,2026-09-08 11:19,19,Material jam,Mechanical,Day
+72,M01,2026-09-08 07:01,12,Robot position error,Mechanical,Night
+73,M02,2026-09-08 08:22,44,Changeover,Planned,Day
+74,M03,2026-09-08 03:56,5,Material jam,Mechanical,Night
+75,M03,2026-09-08 18:16,10,PLC communication error,Software,Day
+76,M04,2026-09-08 13:38,15,Vision NG alarm,Software,Day
+77,M05,2026-09-08 16:59,5,Material jam,Mechanical,Day
+78,M05,2026-09-08 23:42,28,Robot position error,Mechanical,Night
+79,M06,2026-09-08 10:42,39,Changeover,Planned,Day
+80,M06,2026-09-08 09:32,28,Robot position error,Mechanical,Day
+81,M06,2026-09-08 10:25,18,Material jam,Mechanical,Day
+82,M01,2026-09-09 23:57,53,Motor overload,Electrical,Night
+83,M02,2026-09-09 09:18,5,Air pressure low,Utility,Day
+84,M02,2026-09-09 18:38,30,Material jam,Mechanical,Day
+85,M03,2026-09-09 15:50,21,Vision NG alarm,Software,Day
+86,M03,2026-09-09 23:10,45,Changeover,Planned,Night
+87,M04,2026-09-09 02:52,15,Vision NG alarm,Software,Night
+88,M04,2026-09-09 21:19,12,PLC communication error,Software,Night
+89,M04,2026-09-09 04:01,11,Material jam,Mechanical,Night
+90,M05,2026-09-09 22:44,44,Motor overload,Electrical,Night
+91,M05,2026-09-09 20:44,9,Robot position error,Mechanical,Night
+92,M01,2026-09-10 17:15,6,Air pressure low,Utility,Day
+93,M01,2026-09-10 14:08,23,Changeover,Planned,Day
+94,M01,2026-09-10 16:35,26,Robot position error,Mechanical,Day
+95,M02,2026-09-10 16:27,28,Vision NG alarm,Software,Day
+96,M02,2026-09-10 14:57,22,Robot position error,Mechanical,Day
+97,M03,2026-09-10 20:17,12,Material jam,Mechanical,Night
+98,M03,2026-09-10 15:40,21,Robot position error,Mechanical,Day
+99,M04,2026-09-10 10:20,13,Material jam,Mechanical,Day
+100,M04,2026-09-10 04:09,22,Changeover,Planned,Night
+101,M04,2026-09-10 04:45,27,Material jam,Mechanical,Night
+102,M05,2026-09-10 12:57,18,Robot position error,Mechanical,Day
+103,M05,2026-09-10 18:24,5,Robot position error,Mechanical,Day
+104,M06,2026-09-10 17:47,18,Robot position error,Mechanical,Day
+105,M01,2026-09-11 13:31,13,Air pressure low,Utility,Day
+106,M02,2026-09-11 05:53,28,Robot position error,Mechanical,Night
+107,M02,2026-09-11 17:01,43,Motor overload,Electrical,Day
+108,M02,2026-09-11 18:42,38,Changeover,Planned,Day
+109,M03,2026-09-11 01:16,25,Changeover,Planned,Night
+110,M04,2026-09-11 08:48,17,Material jam,Mechanical,Day
+111,M05,2026-09-11 07:41,16,Sensor fault,Electrical,Night
+112,M01,2026-09-12 04:15,24,Robot position error,Mechanical,Night
+113,M02,2026-09-12 22:16,19,PLC communication error,Software,Night
+114,M02,2026-09-12 19:38,10,Robot position error,Mechanical,Day
+115,M03,2026-09-12 18:01,8,PLC communication error,Software,Day
+116,M04,2026-09-12 06:04,27,Material jam,Mechanical,Night
+117,M04,2026-09-12 07:06,25,Vision NG alarm,Software,Night
+118,M05,2026-09-12 01:22,23,Robot position error,Mechanical,Night
+119,M05,2026-09-12 16:41,7,Air pressure low,Utility,Day
+120,M05,2026-09-12 03:27,20,Material jam,Mechanical,Night
+121,M05,2026-09-12 22:09,19,PLC communication error,Software,Night
+122,M06,2026-09-12 17:49,30,Material jam,Mechanical,Day
+123,M06,2026-09-12 23:37,18,Air pressure low,Utility,Night
+124,M06,2026-09-12 02:17,12,Material jam,Mechanical,Night
+125,M01,2026-09-13 12:21,26,Air pressure low,Utility,Day
+126,M01,2026-09-13 05:31,15,Sensor fault,Electrical,Night
+127,M02,2026-09-13 22:56,24,Material jam,Mechanical,Night
+128,M03,2026-09-13 13:31,28,Sensor fault,Electrical,Day
+129,M04,2026-09-13 14:50,20,Vision NG alarm,Software,Day
+130,M04,2026-09-13 07:25,14,Sensor fault,Electrical,Night
+131,M05,2026-09-13 17:21,56,Motor overload,Electrical,Day
+132,M05,2026-09-13 08:14,14,Material jam,Mechanical,Day
+133,M05,2026-09-13 23:34,8,Robot position error,Mechanical,Night
+134,M06,2026-09-13 08:46,20,Material jam,Mechanical,Day
+135,M01,2026-09-14 06:18,8,Material jam,Mechanical,Night
+136,M01,2026-09-14 09:00,10,Material jam,Mechanical,Day
+137,M03,2026-09-14 15:06,25,PLC communication error,Software,Day
+138,M03,2026-09-14 09:30,38,Changeover,Planned,Day
+139,M03,2026-09-14 01:16,35,Motor overload,Electrical,Night
+140,M05,2026-09-14 09:05,23,Robot position error,Mechanical,Day
+141,M05,2026-09-14 13:38,29,Robot position error,Mechanical,Day
+142,M05,2026-09-14 16:24,29,Vision NG alarm,Software,Day
+143,M05,2026-09-14 09:36,51,Motor overload,Electrical,Day
+144,M06,2026-09-14 06:40,29,Sensor fault,Electrical,Night
+145,M06,2026-09-14 02:10,26,Material jam,Mechanical,Night
+146,M06,2026-09-14 02:10,22,Material jam,Mechanical,Night
+147,M01,2026-09-15 09:45,28,Motor overload,Electrical,Day
+148,M01,2026-09-15 02:43,19,Material jam,Mechanical,Night
+149,M02,2026-09-15 06:27,30,Vision NG alarm,Software,Night
+150,M02,2026-09-15 20:09,12,Sensor fault,Electrical,Night
+151,M02,2026-09-15 02:03,24,Changeover,Planned,Night
+152,M03,2026-09-15 14:07,14,Robot position error,Mechanical,Day
+153,M03,2026-09-15 12:17,51,Motor overload,Electrical,Day
+154,M03,2026-09-15 14:05,20,Air pressure low,Utility,Day
+155,M04,2026-09-15 00:05,13,Material jam,Mechanical,Night
+156,M04,2026-09-15 18:37,26,Material jam,Mechanical,Day
+157,M04,2026-09-15 21:52,29,PLC communication error,Software,Night
+158,M05,2026-09-15 05:37,13,Air pressure low,Utility,Night
+159,M05,2026-09-15 11:26,37,Motor overload,Electrical,Day
+160,M06,2026-09-15 15:18,27,Material jam,Mechanical,Day
+161,M01,2026-09-16 10:16,7,Sensor fault,Electrical,Day
+162,M01,2026-09-16 12:55,29,Material jam,Mechanical,Day
+163,M02,2026-09-16 13:03,34,Changeover,Planned,Day
+164,M02,2026-09-16 19:48,16,Material jam,Mechanical,Day
+165,M02,2026-09-16 01:13,19,Air pressure low,Utility,Night
+166,M03,2026-09-16 03:01,57,Motor overload,Electrical,Night
+167,M04,2026-09-16 17:00,14,Vision NG alarm,Software,Day
+168,M05,2026-09-16 15:59,9,PLC communication error,Software,Day
+169,M06,2026-09-16 07:29,50,Motor overload,Electrical,Night
+170,M01,2026-09-17 02:17,9,Air pressure low,Utility,Night
+171,M01,2026-09-17 10:59,18,Robot position error,Mechanical,Day
+172,M03,2026-09-17 15:55,26,Air pressure low,Utility,Day
+173,M03,2026-09-17 15:22,22,Sensor fault,Electrical,Day
+174,M04,2026-09-17 22:15,36,Motor overload,Electrical,Night
+175,M04,2026-09-17 13:02,12,Air pressure low,Utility,Day
+176,M05,2026-09-17 04:31,25,PLC communication error,Software,Night
+177,M05,2026-09-17 10:55,23,Robot position error,Mechanical,Day
+178,M05,2026-09-17 16:58,8,Sensor fault,Electrical,Day
+179,M06,2026-09-17 02:30,24,Changeover,Planned,Night
+180,M06,2026-09-17 10:39,13,Robot position error,Mechanical,Day
+181,M01,2026-09-18 12:20,37,Changeover,Planned,Day
+182,M02,2026-09-18 19:04,21,Changeover,Planned,Day
+183,M02,2026-09-18 09:14,26,Material jam,Mechanical,Day
+184,M06,2026-09-18 07:33,9,Material jam,Mechanical,Night
+185,M01,2026-09-19 19:55,7,Sensor fault,Electrical,Day
+186,M02,2026-09-19 07:29,24,Changeover,Planned,Night
+187,M02,2026-09-19 08:42,19,Vision NG alarm,Software,Day
+188,M03,2026-09-19 02:28,10,Vision NG alarm,Software,Night
+189,M04,2026-09-19 22:16,18,Vision NG alarm,Software,Night
+190,M05,2026-09-19 18:18,16,Robot position error,Mechanical,Day
+191,M05,2026-09-19 12:17,26,Robot position error,Mechanical,Day
+192,M05,2026-09-19 23:03,29,Sensor fault,Electrical,Night
+193,M06,2026-09-19 19:51,12,Robot position error,Mechanical,Day
+194,M01,2026-09-20 23:49,29,Material jam,Mechanical,Night
+195,M01,2026-09-20 20:06,9,Vision NG alarm,Software,Night
+196,M02,2026-09-20 18:23,6,Robot position error,Mechanical,Day
+197,M03,2026-09-20 05:12,18,Material jam,Mechanical,Night
+198,M04,2026-09-20 05:16,13,Air pressure low,Utility,Night
+199,M05,2026-09-20 02:09,34,Changeover,Planned,Night
+200,M05,2026-09-20 23:43,26,Robot position error,Mechanical,Night
+201,M06,2026-09-20 12:00,30,Material jam,Mechanical,Day
+202,M06,2026-09-20 14:23,8,Material jam,Mechanical,Day
+203,M01,2026-09-21 11:06,25,Material jam,Mechanical,Day
+204,M01,2026-09-21 00:39,20,Vision NG alarm,Software,Night
+205,M02,2026-09-21 20:52,7,Material jam,Mechanical,Night
+206,M02,2026-09-21 20:26,51,Motor overload,Electrical,Night
+207,M05,2026-09-21 17:26,27,Material jam,Mechanical,Day
+208,M05,2026-09-21 20:06,18,Vision NG alarm,Software,Night
+209,M05,2026-09-21 01:44,13,Robot position error,Mechanical,Night
+210,M06,2026-09-21 21:23,23,Changeover,Planned,Night
+211,M01,2026-09-22 06:07,13,Sensor fault,Electrical,Night
+212,M03,2026-09-22 10:15,6,PLC communication error,Software,Day
+213,M03,2026-09-22 18:13,30,PLC communication error,Software,Day
+214,M04,2026-09-22 10:49,12,Vision NG alarm,Software,Day
+215,M05,2026-09-22 17:16,9,Robot position error,Mechanical,Day
+216,M01,2026-09-23 05:16,5,Vision NG alarm,Software,Night
+217,M02,2026-09-23 15:28,7,Sensor fault,Electrical,Day
+218,M02,2026-09-23 18:06,21,Robot position error,Mechanical,Day
+219,M03,2026-09-23 21:33,30,Sensor fault,Electrical,Night
+220,M03,2026-09-23 00:03,25,Material jam,Mechanical,Night
+221,M04,2026-09-23 22:58,20,Vision NG alarm,Software,Night
+222,M04,2026-09-23 19:09,32,Motor overload,Electrical,Day
+223,M05,2026-09-23 16:18,24,Robot position error,Mechanical,Day
+224,M05,2026-09-23 22:07,48,Motor overload,Electrical,Night
+225,M05,2026-09-23 17:46,44,Changeover,Planned,Day
+226,M05,2026-09-23 13:21,27,Changeover,Planned,Day
+227,M06,2026-09-23 10:42,18,Sensor fault,Electrical,Day
+228,M06,2026-09-23 21:59,9,Material jam,Mechanical,Night
+229,M06,2026-09-23 02:27,24,Motor overload,Electrical,Night
+230,M01,2026-09-24 17:35,23,Air pressure low,Utility,Day
+231,M02,2026-09-24 13:55,44,Changeover,Planned,Day
+232,M03,2026-09-24 03:36,16,Vision NG alarm,Software,Night
+233,M04,2026-09-24 11:54,8,Material jam,Mechanical,Day
+234,M04,2026-09-24 08:36,8,Air pressure low,Utility,Day
+235,M05,2026-09-24 19:59,5,Vision NG alarm,Software,Day
+236,M05,2026-09-24 05:17,5,Vision NG alarm,Software,Night
+237,M05,2026-09-24 11:00,15,Robot position error,Mechanical,Day
+238,M06,2026-09-24 20:01,47,Motor overload,Electrical,Night
+239,M06,2026-09-24 06:24,21,Sensor fault,Electrical,Night
+240,M06,2026-09-24 11:19,35,Motor overload,Electrical,Day
+241,M01,2026-09-25 04:10,6,Vision NG alarm,Software,Night
+242,M01,2026-09-25 21:05,6,Robot position error,Mechanical,Night
+243,M02,2026-09-25 08:13,18,Vision NG alarm,Software,Day
+244,M02,2026-09-25 11:27,8,Robot position error,Mechanical,Day
+245,M03,2026-09-25 09:02,26,Air pressure low,Utility,Day
+246,M03,2026-09-25 01:00,24,Material jam,Mechanical,Night
+247,M04,2026-09-25 10:07,14,Robot position error,Mechanical,Day
+248,M05,2026-09-25 17:53,21,Material jam,Mechanical,Day
+249,M06,2026-09-25 13:01,21,Changeover,Planned,Day
+250,M06,2026-09-25 18:27,32,Motor overload,Electrical,Day
+251,M01,2026-09-26 00:20,17,Material jam,Mechanical,Night
+252,M01,2026-09-26 14:53,24,Sensor fault,Electrical,Day
+253,M02,2026-09-26 13:37,12,Robot position error,Mechanical,Day
+254,M02,2026-09-26 09:47,34,Motor overload,Electrical,Day
+255,M03,2026-09-26 03:33,25,Sensor fault,Electrical,Night
+256,M04,2026-09-26 04:15,25,Material jam,Mechanical,Night
+257,M05,2026-09-26 05:49,7,Sensor fault,Electrical,Night
+258,M05,2026-09-26 18:28,23,Vision NG alarm,Software,Day
+259,M06,2026-09-26 10:55,24,Vision NG alarm,Software,Day
+260,M06,2026-09-26 04:28,15,PLC communication error,Software,Night
+261,M06,2026-09-26 20:19,19,Sensor fault,Electrical,Night
+262,M01,2026-09-27 14:28,14,Air pressure low,Utility,Day
+263,M02,2026-09-27 19:38,7,Sensor fault,Electrical,Day
+264,M03,2026-09-27 01:28,28,PLC communication error,Software,Night
+265,M03,2026-09-27 20:12,38,Changeover,Planned,Night
+266,M04,2026-09-27 03:51,19,PLC communication error,Software,Night
+267,M05,2026-09-27 22:28,12,Robot position error,Mechanical,Night
+268,M05,2026-09-27 05:23,24,PLC communication error,Software,Night
+269,M05,2026-09-27 10:43,18,Robot position error,Mechanical,Day
+270,M06,2026-09-27 03:35,15,Material jam,Mechanical,Night
+271,M06,2026-09-27 08:46,14,Vision NG alarm,Software,Day
+272,M06,2026-09-27 04:21,39,Changeover,Planned,Night
+273,M01,2026-09-28 22:42,25,Material jam,Mechanical,Night
+274,M03,2026-09-28 22:53,26,Robot position error,Mechanical,Night
+275,M04,2026-09-28 13:32,26,Sensor fault,Electrical,Day
+276,M04,2026-09-28 09:11,16,Material jam,Mechanical,Day
+277,M05,2026-09-28 09:54,7,Robot position error,Mechanical,Day
+278,M05,2026-09-28 23:56,22,Robot position error,Mechanical,Night
+279,M06,2026-09-28 04:10,17,Sensor fault,Electrical,Night
+280,M06,2026-09-28 19:51,27,Material jam,Mechanical,Day
+281,M02,2026-09-29 09:48,24,PLC communication error,Software,Day
+282,M03,2026-09-29 15:57,30,Material jam,Mechanical,Day
+283,M03,2026-09-29 21:36,16,Robot position error,Mechanical,Night
+284,M04,2026-09-29 16:26,21,Robot position error,Mechanical,Day
+285,M05,2026-09-29 11:35,20,Robot position error,Mechanical,Day
+286,M05,2026-09-29 03:18,36,Changeover,Planned,Night
+287,M06,2026-09-29 13:05,24,Changeover,Planned,Day
+288,M06,2026-09-29 14:56,12,PLC communication error,Software,Day
+289,M02,2026-09-30 07:01,16,PLC communication error,Software,Night
+290,M02,2026-09-30 22:41,8,Material jam,Mechanical,Night
+291,M04,2026-09-30 22:30,29,Robot position error,Mechanical,Night
+292,M04,2026-09-30 00:16,22,Motor overload,Electrical,Night
+293,M04,2026-09-30 17:46,9,Material jam,Mechanical,Day
+294,M05,2026-09-30 20:50,18,Robot position error,Mechanical,Night
+295,M06,2026-09-30 20:32,5,Vision NG alarm,Software,Night
+296,M06,2026-09-30 04:18,27,Air pressure low,Utility,Night
+297,M01,2026-10-01 21:42,10,Air pressure low,Utility,Night
+298,M03,2026-10-01 15:02,17,Air pressure low,Utility,Day
+299,M03,2026-10-01 08:47,16,Vision NG alarm,Software,Day
+300,M04,2026-10-01 20:06,26,Material jam,Mechanical,Night
+301,M05,2026-10-01 05:53,25,Sensor fault,Electrical,Night
+302,M06,2026-10-01 04:04,50,Motor overload,Electrical,Night
+303,M06,2026-10-01 01:18,19,Vision NG alarm,Software,Night
+304,M06,2026-10-01 06:56,30,Material jam,Mechanical,Night
+305,M01,2026-10-02 15:16,22,Material jam,Mechanical,Day
+306,M01,2026-10-02 06:18,25,Sensor fault,Electrical,Night
+307,M02,2026-10-02 11:27,8,Material jam,Mechanical,Day
+308,M02,2026-10-02 14:57,43,Changeover,Planned,Day
+309,M02,2026-10-02 05:31,15,PLC communication error,Software,Night
+310,M03,2026-10-02 23:27,7,Material jam,Mechanical,Night
+311,M03,2026-10-02 05:34,24,Sensor fault,Electrical,Night
+312,M04,2026-10-02 14:38,14,Vision NG alarm,Software,Day
+313,M05,2026-10-02 13:17,50,Motor overload,Electrical,Day
+314,M05,2026-10-02 02:42,6,Vision NG alarm,Software,Night
+315,M05,2026-10-02 23:43,30,Robot position error,Mechanical,Night
+316,M06,2026-10-02 01:08,19,Vision NG alarm,Software,Night
+317,M06,2026-10-02 20:23,29,Sensor fault,Electrical,Night
+318,M02,2026-10-03 02:36,29,Material jam,Mechanical,Night
+319,M03,2026-10-03 03:01,12,Vision NG alarm,Software,Night
+320,M04,2026-10-03 08:49,23,Changeover,Planned,Day
+321,M04,2026-10-03 06:39,19,Material jam,Mechanical,Night
+322,M05,2026-10-03 05:57,19,Sensor fault,Electrical,Night
+323,M05,2026-10-03 21:54,30,Vision NG alarm,Software,Night
+324,M06,2026-10-03 09:57,22,Sensor fault,Electrical,Day
+325,M06,2026-10-03 22:45,10,Material jam,Mechanical,Night
+326,M06,2026-10-03 05:50,40,Changeover,Planned,Night
+327,M01,2026-10-04 15:01,12,Robot position error,Mechanical,Day
+328,M02,2026-10-04 04:39,22,Robot position error,Mechanical,Night
+329,M02,2026-10-04 09:25,22,Changeover,Planned,Day
+330,M03,2026-10-04 02:08,51,Motor overload,Electrical,Night
+331,M03,2026-10-04 02:28,25,PLC communication error,Software,Night
+332,M04,2026-10-04 17:40,44,Changeover,Planned,Day
+333,M05,2026-10-04 16:09,8,Air pressure low,Utility,Day
+334,M05,2026-10-04 07:22,27,Robot position error,Mechanical,Night
+335,M06,2026-10-04 06:40,13,Robot position error,Mechanical,Night
+336,M01,2026-10-05 02:32,22,Material jam,Mechanical,Night
+337,M01,2026-10-05 18:09,23,Vision NG alarm,Software,Day
+338,M01,2026-10-05 23:57,24,Sensor fault,Electrical,Night
+339,M02,2026-10-05 02:02,5,Sensor fault,Electrical,Night
+340,M02,2026-10-05 18:16,29,PLC communication error,Software,Day
+341,M03,2026-10-05 15:56,5,Vision NG alarm,Software,Day
+342,M03,2026-10-05 20:19,14,Vision NG alarm,Software,Night
+343,M04,2026-10-05 22:03,36,Motor overload,Electrical,Night
+344,M04,2026-10-05 15:29,18,Sensor fault,Electrical,Day
+345,M04,2026-10-05 04:20,24,Material jam,Mechanical,Night
+346,M05,2026-10-05 03:20,22,Robot position error,Mechanical,Night
+347,M05,2026-10-05 07:09,19,Robot position error,Mechanical,Night
+348,M06,2026-10-05 07:55,33,Changeover,Planned,Night
+349,M06,2026-10-05 18:46,30,Changeover,Planned,Day
+350,M01,2026-10-06 15:56,19,PLC communication error,Software,Day
+351,M01,2026-10-06 02:25,5,Material jam,Mechanical,Night
+352,M02,2026-10-06 01:18,6,Vision NG alarm,Software,Night
+353,M03,2026-10-06 17:00,14,Vision NG alarm,Software,Day
+354,M03,2026-10-06 04:56,18,Robot position error,Mechanical,Night
+355,M03,2026-10-06 12:23,16,Material jam,Mechanical,Day
+356,M04,2026-10-06 09:04,22,Material jam,Mechanical,Day
+357,M04,2026-10-06 17:17,19,Material jam,Mechanical,Day
+358,M05,2026-10-06 10:35,16,Robot position error,Mechanical,Day
+359,M05,2026-10-06 19:32,26,Changeover,Planned,Day
+360,M01,2026-10-07 19:57,9,Air pressure low,Utility,Day
+361,M01,2026-10-07 19:20,15,Air pressure low,Utility,Day
+362,M02,2026-10-07 10:32,23,Robot position error,Mechanical,Day
+363,M02,2026-10-07 15:45,22,Robot position error,Mechanical,Day
+364,M02,2026-10-07 00:23,20,Air pressure low,Utility,Night
+365,M03,2026-10-07 23:55,30,Vision NG alarm,Software,Night
+366,M03,2026-10-07 19:30,5,Vision NG alarm,Software,Day
+367,M04,2026-10-07 01:37,28,Air pressure low,Utility,Night
+368,M04,2026-10-07 20:46,21,Air pressure low,Utility,Night
+369,M05,2026-10-07 03:12,27,Material jam,Mechanical,Night
+370,M05,2026-10-07 13:44,9,Robot position error,Mechanical,Day
+371,M06,2026-10-07 23:03,43,Changeover,Planned,Night
+372,M06,2026-10-07 06:35,21,Vision NG alarm,Software,Night
+373,M01,2026-10-08 14:58,10,Material jam,Mechanical,Day
+374,M01,2026-10-08 11:43,22,Air pressure low,Utility,Day
+375,M02,2026-10-08 19:30,13,Robot position error,Mechanical,Day
+376,M02,2026-10-08 08:35,12,Material jam,Mechanical,Day
+377,M02,2026-10-08 09:45,14,Material jam,Mechanical,Day
+378,M03,2026-10-08 23:17,62,Motor overload,Electrical,Night
+379,M04,2026-10-08 11:49,17,Material jam,Mechanical,Day
+380,M04,2026-10-08 01:18,14,Robot position error,Mechanical,Night
+381,M05,2026-10-08 17:17,11,Material jam,Mechanical,Day
+382,M05,2026-10-08 03:39,24,Changeover,Planned,Night
+383,M05,2026-10-08 21:57,6,Robot position error,Mechanical,Night
+384,M01,2026-10-09 04:00,29,Sensor fault,Electrical,Night
+385,M01,2026-10-09 13:41,10,PLC communication error,Software,Day
+386,M02,2026-10-09 09:20,29,Vision NG alarm,Software,Day
+387,M02,2026-10-09 02:41,6,Material jam,Mechanical,Night
+388,M03,2026-10-09 05:26,21,Changeover,Planned,Night
+389,M03,2026-10-09 01:53,25,Changeover,Planned,Night
+390,M03,2026-10-09 05:59,20,Material jam,Mechanical,Night
+391,M04,2026-10-09 09:36,20,Changeover,Planned,Day
+392,M05,2026-10-09 04:54,51,Motor overload,Electrical,Night
+393,M05,2026-10-09 03:21,30,Robot position error,Mechanical,Night
+394,M06,2026-10-09 23:21,5,Vision NG alarm,Software,Night
+395,M01,2026-10-10 12:52,25,Sensor fault,Electrical,Day
+396,M02,2026-10-10 04:30,10,Vision NG alarm,Software,Night
+397,M02,2026-10-10 00:16,12,Material jam,Mechanical,Night
+398,M03,2026-10-10 18:46,14,PLC communication error,Software,Day
+399,M04,2026-10-10 21:07,6,Vision NG alarm,Software,Night
+400,M05,2026-10-10 09:44,44,Changeover,Planned,Day
+401,M05,2026-10-10 11:39,14,Sensor fault,Electrical,Day
+402,M05,2026-10-10 04:29,20,Material jam,Mechanical,Night
+403,M05,2026-10-10 22:35,18,Robot position error,Mechanical,Night
+404,M06,2026-10-10 07:43,29,Robot position error,Mechanical,Night
+405,M06,2026-10-10 02:33,30,Robot position error,Mechanical,Night
+406,M06,2026-10-10 02:58,53,Motor overload,Electrical,Night
+407,M01,2026-10-11 18:34,26,Changeover,Planned,Day
+408,M01,2026-10-11 16:28,15,Sensor fault,Electrical,Day
+409,M02,2026-10-11 14:51,21,Air pressure low,Utility,Day
+410,M02,2026-10-11 16:26,9,Sensor fault,Electrical,Day
+411,M03,2026-10-11 23:01,14,Vision NG alarm,Software,Night
+412,M03,2026-10-11 23:13,5,Material jam,Mechanical,Night
+413,M04,2026-10-11 01:59,22,Vision NG alarm,Software,Night
+414,M05,2026-10-11 20:46,9,Robot position error,Mechanical,Night
+415,M05,2026-10-11 14:55,17,Vision NG alarm,Software,Day
+416,M01,2026-10-12 03:11,16,Sensor fault,Electrical,Night
+417,M01,2026-10-12 16:08,17,PLC communication error,Software,Day
+418,M03,2026-10-12 13:34,22,Vision NG alarm,Software,Day
+419,M03,2026-10-12 07:29,12,Material jam,Mechanical,Night
+420,M04,2026-10-12 21:26,6,Robot position error,Mechanical,Night
+421,M04,2026-10-12 07:13,5,Vision NG alarm,Software,Night
+422,M04,2026-10-12 01:28,24,Sensor fault,Electrical,Night
+423,M06,2026-10-12 01:08,29,Air pressure low,Utility,Night
+424,M01,2026-10-13 19:49,23,Air pressure low,Utility,Day
+425,M01,2026-10-13 07:19,15,Vision NG alarm,Software,Night
+426,M01,2026-10-13 16:14,41,Changeover,Planned,Day
+427,M02,2026-10-13 05:40,28,PLC communication error,Software,Night
+428,M02,2026-10-13 15:03,22,Vision NG alarm,Software,Day
+429,M03,2026-10-13 10:44,21,Material jam,Mechanical,Day
+430,M03,2026-10-13 12:11,33,Motor overload,Electrical,Day
+431,M03,2026-10-13 07:54,20,Robot position error,Mechanical,Night
+432,M04,2026-10-13 17:26,6,Robot position error,Mechanical,Day
+433,M05,2026-10-13 02:59,25,Robot position error,Mechanical,Night
+434,M05,2026-10-13 23:53,22,Robot position error,Mechanical,Night
+435,M06,2026-10-13 02:12,6,Vision NG alarm,Software,Night
+436,M06,2026-10-13 23:42,23,Robot position error,Mechanical,Night
+437,M06,2026-10-13 06:55,20,Air pressure low,Utility,Night
+438,M02,2026-10-14 15:58,29,Sensor fault,Electrical,Day
+439,M02,2026-10-14 22:13,24,Material jam,Mechanical,Night
+440,M02,2026-10-14 17:20,12,Material jam,Mechanical,Day
+441,M03,2026-10-14 08:23,14,Vision NG alarm,Software,Day
+442,M03,2026-10-14 14:06,20,Air pressure low,Utility,Day
+443,M04,2026-10-14 10:26,31,Changeover,Planned,Day
+444,M05,2026-10-14 18:46,23,Sensor fault,Electrical,Day
+445,M05,2026-10-14 07:24,15,Robot position error,Mechanical,Night
+446,M05,2026-10-14 20:43,22,Robot position error,Mechanical,Night
+447,M06,2026-10-14 23:31,25,PLC communication error,Software,Night
+448,M06,2026-10-14 11:10,68,Motor overload,Electrical,Day
+449,M01,2026-10-15 20:03,37,Changeover,Planned,Night
+450,M04,2026-10-15 00:13,9,Sensor fault,Electrical,Night
+451,M05,2026-10-15 21:31,20,Vision NG alarm,Software,Night
+452,M05,2026-10-15 00:01,18,Sensor fault,Electrical,Night
+453,M05,2026-10-15 00:32,14,Robot position error,Mechanical,Night
+454,M06,2026-10-15 16:09,8,Sensor fault,Electrical,Day
+455,M01,2026-10-16 12:05,13,Robot position error,Mechanical,Day
+456,M02,2026-10-16 07:19,27,Material jam,Mechanical,Night
+457,M02,2026-10-16 20:54,7,Vision NG alarm,Software,Night
+458,M03,2026-10-16 15:03,22,Material jam,Mechanical,Day
+459,M03,2026-10-16 05:05,27,Vision NG alarm,Software,Night
+460,M04,2026-10-16 16:58,8,Air pressure low,Utility,Day
+461,M05,2026-10-16 21:59,7,Robot position error,Mechanical,Night
+462,M05,2026-10-16 01:11,26,Material jam,Mechanical,Night
+463,M05,2026-10-16 18:09,11,Robot position error,Mechanical,Day
+464,M05,2026-10-16 02:19,17,Robot position error,Mechanical,Night
+465,M06,2026-10-16 10:24,22,Vision NG alarm,Software,Day
+466,M06,2026-10-16 22:46,9,Robot position error,Mechanical,Night
+467,M01,2026-10-17 07:53,18,Sensor fault,Electrical,Night
+468,M02,2026-10-17 10:01,17,PLC communication error,Software,Day
+469,M02,2026-10-17 14:31,30,Vision NG alarm,Software,Day
+470,M03,2026-10-17 21:24,59,Motor overload,Electrical,Night
+471,M03,2026-10-17 09:51,24,Sensor fault,Electrical,Day
+472,M04,2026-10-17 20:09,27,Sensor fault,Electrical,Night
+473,M06,2026-10-17 04:05,8,Robot position error,Mechanical,Night
+474,M01,2026-10-18 00:05,8,Air pressure low,Utility,Night
+475,M01,2026-10-18 19:38,7,Material jam,Mechanical,Day
+476,M04,2026-10-18 21:24,10,Air pressure low,Utility,Night
+477,M05,2026-10-18 13:19,13,Robot position error,Mechanical,Day
+478,M05,2026-10-18 07:46,13,Robot position error,Mechanical,Night
+479,M06,2026-10-18 00:25,33,Motor overload,Electrical,Night
+480,M01,2026-10-19 19:08,53,Motor overload,Electrical,Day
+481,M02,2026-10-19 05:25,15,Material jam,Mechanical,Night
+482,M02,2026-10-19 23:44,14,PLC communication error,Software,Night
+483,M02,2026-10-19 07:20,23,Vision NG alarm,Software,Night
+484,M03,2026-10-19 06:37,23,Material jam,Mechanical,Night
+485,M03,2026-10-19 21:49,10,PLC communication error,Software,Night
+486,M04,2026-10-19 14:51,11,PLC communication error,Software,Day
+487,M04,2026-10-19 02:52,27,Material jam,Mechanical,Night
+488,M05,2026-10-19 21:09,13,Robot position error,Mechanical,Night
+489,M05,2026-10-19 14:38,7,Vision NG alarm,Software,Day
+490,M05,2026-10-19 13:34,58,Motor overload,Electrical,Day
+491,M05,2026-10-19 17:38,27,Sensor fault,Electrical,Day
+492,M06,2026-10-19 05:41,16,Vision NG alarm,Software,Night
+493,M01,2026-10-20 10:50,17,Vision NG alarm,Software,Day
+494,M01,2026-10-20 08:14,23,Motor overload,Electrical,Day
+495,M01,2026-10-20 17:37,21,Air pressure low,Utility,Day
+496,M02,2026-10-20 21:37,29,Material jam,Mechanical,Night
+497,M05,2026-10-20 16:30,11,Material jam,Mechanical,Day
+498,M05,2026-10-20 22:28,28,Robot position error,Mechanical,Night
+499,M06,2026-10-20 20:06,15,Sensor fault,Electrical,Night
+500,M06,2026-10-20 23:15,10,Vision NG alarm,Software,Night
+501,M06,2026-10-20 05:21,22,Air pressure low,Utility,Night
+502,M01,2026-10-21 05:11,25,Robot position error,Mechanical,Night
+503,M03,2026-10-21 00:45,17,Vision NG alarm,Software,Night
+504,M03,2026-10-21 22:51,13,Material jam,Mechanical,Night
+505,M04,2026-10-21 06:29,15,Material jam,Mechanical,Night
+506,M04,2026-10-21 15:33,26,Sensor fault,Electrical,Day
+507,M05,2026-10-21 14:39,16,Robot position error,Mechanical,Day
+508,M05,2026-10-21 09:58,30,Sensor fault,Electrical,Day
+509,M05,2026-10-21 10:07,9,Robot position error,Mechanical,Day
+510,M06,2026-10-21 12:26,21,Vision NG alarm,Software,Day
+511,M01,2026-10-22 17:44,25,Material jam,Mechanical,Day
+512,M01,2026-10-22 17:10,25,Changeover,Planned,Day
+513,M02,2026-10-22 01:55,24,Robot position error,Mechanical,Night
+514,M03,2026-10-22 17:32,17,Material jam,Mechanical,Day
+515,M04,2026-10-22 05:05,49,Motor overload,Electrical,Night
+516,M04,2026-10-22 07:18,30,Air pressure low,Utility,Night
+517,M05,2026-10-22 15:35,29,Robot position error,Mechanical,Day
+518,M06,2026-10-22 17:52,16,Robot position error,Mechanical,Day
+519,M01,2026-10-23 03:47,18,Air pressure low,Utility,Night
+520,M01,2026-10-23 07:19,29,Robot position error,Mechanical,Night
+521,M02,2026-10-23 14:55,7,Material jam,Mechanical,Day
+522,M03,2026-10-23 18:44,28,Material jam,Mechanical,Day
+523,M04,2026-10-23 06:52,43,Motor overload,Electrical,Night
+524,M04,2026-10-23 18:22,6,Material jam,Mechanical,Day
+525,M04,2026-10-23 17:10,24,Air pressure low,Utility,Day
+526,M05,2026-10-23 03:08,26,Material jam,Mechanical,Night
+527,M05,2026-10-23 08:55,6,PLC communication error,Software,Day
+528,M06,2026-10-23 10:53,27,Material jam,Mechanical,Day
+529,M01,2026-10-24 20:17,23,Air pressure low,Utility,Night
+530,M01,2026-10-24 14:04,17,Vision NG alarm,Software,Day
+531,M03,2026-10-24 14:31,31,Changeover,Planned,Day
+532,M03,2026-10-24 23:05,5,Material jam,Mechanical,Night
+533,M03,2026-10-24 20:42,19,Robot position error,Mechanical,Night
+534,M04,2026-10-24 06:31,18,Material jam,Mechanical,Night
+535,M04,2026-10-24 10:35,14,Material jam,Mechanical,Day
+536,M05,2026-10-24 03:40,21,Changeover,Planned,Night
+537,M05,2026-10-24 05:28,8,Robot position error,Mechanical,Night
+538,M05,2026-10-24 22:58,39,Motor overload,Electrical,Night
+539,M06,2026-10-24 02:41,28,Changeover,Planned,Night
+540,M01,2026-10-25 01:25,25,Changeover,Planned,Night
+541,M01,2026-10-25 22:48,28,Vision NG alarm,Software,Night
+542,M01,2026-10-25 02:45,25,Material jam,Mechanical,Night
+543,M03,2026-10-25 10:52,42,Motor overload,Electrical,Day
+544,M03,2026-10-25 22:08,18,Sensor fault,Electrical,Night
+545,M03,2026-10-25 02:46,39,Motor overload,Electrical,Night
+546,M04,2026-10-25 12:49,24,Changeover,Planned,Day
+547,M05,2026-10-25 19:41,5,Sensor fault,Electrical,Day
+548,M05,2026-10-25 20:47,11,Robot position error,Mechanical,Night
+549,M05,2026-10-25 14:55,26,Sensor fault,Electrical,Day
+550,M05,2026-10-25 03:37,9,Material jam,Mechanical,Night
+551,M06,2026-10-25 07:17,9,Material jam,Mechanical,Night
+552,M06,2026-10-25 17:38,12,Vision NG alarm,Software,Day
+553,M01,2026-10-26 09:13,26,Sensor fault,Electrical,Day
+554,M01,2026-10-26 06:47,21,Air pressure low,Utility,Night
+555,M01,2026-10-26 01:50,25,Material jam,Mechanical,Night
+556,M02,2026-10-26 15:40,12,Material jam,Mechanical,Day
+557,M02,2026-10-26 00:23,21,Vision NG alarm,Software,Night
+558,M03,2026-10-26 05:48,58,Motor overload,Electrical,Night
+559,M03,2026-10-26 00:37,46,Motor overload,Electrical,Night
+560,M05,2026-10-26 13:27,29,Material jam,Mechanical,Day
+561,M05,2026-10-26 17:39,22,Robot position error,Mechanical,Day
+562,M05,2026-10-26 16:58,7,Robot position error,Mechanical,Day
+563,M06,2026-10-26 20:48,23,Material jam,Mechanical,Night
+564,M06,2026-10-26 20:04,26,Robot position error,Mechanical,Night
+565,M01,2026-10-27 13:07,7,Sensor fault,Electrical,Day
+566,M02,2026-10-27 23:11,26,Vision NG alarm,Software,Night
+567,M03,2026-10-27 11:33,20,Sensor fault,Electrical,Day
+568,M03,2026-10-27 08:10,28,Air pressure low,Utility,Day
+569,M03,2026-10-27 08:46,28,Material jam,Mechanical,Day
+570,M05,2026-10-27 02:31,25,Material jam,Mechanical,Night
+571,M05,2026-10-27 18:10,20,Robot position error,Mechanical,Day
+572,M04,2026-10-28 17:51,6,Sensor fault,Electrical,Day
+573,M05,2026-10-28 10:17,28,Material jam,Mechanical,Day
+574,M05,2026-10-28 16:43,8,Robot position error,Mechanical,Day
+575,M06,2026-10-28 02:56,17,PLC communication error,Software,Night
+576,M06,2026-10-28 09:20,53,Motor overload,Electrical,Day
+577,M01,2026-10-29 09:47,23,Material jam,Mechanical,Day
+578,M02,2026-10-29 06:46,29,PLC communication error,Software,Night
+579,M02,2026-10-29 07:09,44,Changeover,Planned,Night
+580,M03,2026-10-29 22:56,25,Air pressure low,Utility,Night
+581,M04,2026-10-29 23:19,28,Material jam,Mechanical,Night
+582,M04,2026-10-29 07:26,21,Sensor fault,Electrical,Night
+583,M04,2026-10-29 04:45,6,Air pressure low,Utility,Night
+584,M05,2026-10-29 02:37,57,Motor overload,Electrical,Night
+585,M05,2026-10-29 02:37,17,Robot position error,Mechanical,Night
+586,M06,2026-10-29 10:59,13,Material jam,Mechanical,Day
+587,M01,2026-10-30 08:14,19,Material jam,Mechanical,Day
+588,M01,2026-10-30 04:49,11,Sensor fault,Electrical,Night
+589,M01,2026-10-30 04:06,8,Robot position error,Mechanical,Night
+590,M02,2026-10-30 06:28,16,Sensor fault,Electrical,Night
+591,M02,2026-10-30 03:05,13,Material jam,Mechanical,Night
+592,M03,2026-10-30 06:53,6,Vision NG alarm,Software,Night
+593,M03,2026-10-30 02:45,24,Changeover,Planned,Night
+594,M03,2026-10-30 12:32,16,Material jam,Mechanical,Day
+595,M04,2026-10-30 14:35,17,Sensor fault,Electrical,Day
+596,M05,2026-10-30 01:53,5,Robot position error,Mechanical,Night
+597,M05,2026-10-30 12:23,11,Robot position error,Mechanical,Day
+598,M02,2026-10-31 10:07,26,Motor overload,Electrical,Day
+599,M02,2026-10-31 01:10,19,Sensor fault,Electrical,Night
+600,M02,2026-10-31 23:25,33,Changeover,Planned,Night
+601,M03,2026-10-31 05:17,11,Sensor fault,Electrical,Night
+602,M03,2026-10-31 01:39,9,Material jam,Mechanical,Night
+603,M04,2026-10-31 15:03,22,Air pressure low,Utility,Day
+604,M05,2026-10-31 20:51,12,Vision NG alarm,Software,Night
+605,M05,2026-10-31 22:22,17,Robot position error,Mechanical,Night
+606,M06,2026-10-31 10:24,36,Changeover,Planned,Day
